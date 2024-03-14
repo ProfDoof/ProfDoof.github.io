@@ -4,25 +4,36 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tsc",
+    "build": "node esbuild.config.mjs",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node dist/index.js"
+    "run": "pnpm run build && node dist/index.js",
+    "lint": "eslint src/"
   },
   "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@badrap/result": "^0.2.13",
     "commander": "^12.0.0",
+    "handlebars": "^4.7.8",
+    "mergician": "^2.0.1",
     "puppeteer": "^22.3.0",
-    "resumed": "^3.0.1",
     "resume-schema": "^1.0.0",
-    "@badrap/result": "^0.2.13"
+    "resumed": "^3.0.1"
   },
   "devDependencies": {
-    "@types/node": "^20.11.19",
-    "@commander-js/extra-typings":  "^12.0.1",
-    "typescript": "^5.3.3",
-    "json-schema-to-typescript": "^13.1.2"
-  }
+    "@commander-js/extra-typings": "^12.0.1",
+    "@types/node": "^20.11.27",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "esbuild": "0.20.1",
+    "esbuild-plugin-handlebars": "github:ProfDoof/esbuild-plugin-handlebars#improve_partials",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "json-schema-to-typescript": "^13.1.2",
+    "jsonresume-theme-even": "^0.22.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.2"
+  },
+  "packageManager": "pnpm@8.15.4+sha256.cea6d0bdf2de3a0549582da3983c70c92ffc577ff4410cbf190817ddc35137c2"
 }

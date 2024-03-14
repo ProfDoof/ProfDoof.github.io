@@ -8,7 +8,7 @@
         "summary": "",
         "location": {
             "city": "Raleigh",
-            "countryCode": "USA",
+            "countryCode": "US",
             "region": "North Carolina"
         },
         "profiles": [
@@ -25,8 +25,7 @@
             "url": "https://www.csc.ncsu.edu/",
             "area": "Computer Science",
             "studyType": "Ph.D.",
-            "startDate": "08/2020",
-            "endDate": "Present",
+            "startDate": "2020-08",
             "gpa": "3.81"
         },
         {
@@ -34,8 +33,8 @@
             "url": "https://acu.edu",
             "area": "Math and Computer Science",
             "studyType": "B.S.",
-            "startDate": "08/2016",
-            "endDate": "05/2020",
+            "startDate": "2016-08",
+            "endDate": "2020-05",
             "gpa": "3.84"
         }
     ],
@@ -44,8 +43,8 @@
             "name": "North Carolina State University",
             "position": "Instructor - Software Development Fundamentals",
             "url": "https://www.csc.ncsu.edu/",
-            "startDate": "05/2022",
-            "endDate": "08/2022",
+            "startDate": "2022-05",
+            "endDate": "2022-08",
             "highlights": [
                 "Taught the software development process and test-driven development to 20 students",
                 "Engaged students through question and answer sections in each lecture",
@@ -56,8 +55,8 @@
             "name": "North Carolina State University",
             "position": "Instructor - Introduction to Computing",
             "url": "https://www.csc.ncsu.edu/",
-            "startDate": "12/2021",
-            "endDate": "05/2022",
+            "startDate": "2021-12",
+            "endDate": "2022-05",
             "highlights": [
                 "Taught the fundamentals of Java to 40 students",
                 "Built two autograders using JUnit 5 to autograde student code submissions",
@@ -68,8 +67,8 @@
             "name": "Secmation",
             "position": "Software Development Intern",
             "url": "https://secmation.com",
-            "startDate": "05/2021",
-            "endDate": "08/2021",
+            "startDate": "2021-05",
+            "endDate": "2021-08",
             "highlights": [
                 "Planned and implemented 20% of a backend for a programming environment with Python",
                 "Outlined an API for the programming environment backend using AsyncAPI",
@@ -80,8 +79,8 @@
             "name": "North Carolina State University",
             "position": "Teaching Assistant",
             "url": "https://www.csc.ncsu.edu/",
-            "startDate": "08/2020",
-            "endDate": "12/2022",
+            "startDate": "2020-08",
+            "endDate": "2022-12",
             "highlights": [
                 "Helped 300+ students navigate the complexities of multi-project Java codebases",
                 "Validated 600+ student algorithmic analyses and algorithm designs",
@@ -92,8 +91,8 @@
             "name": "Faithlife",
             "position": "Software Development Intern",
             "url": "https://faithlife.com",
-            "startDate": "05/2019",
-            "endDate": "08/2019",
+            "startDate": "2019-05",
+            "endDate": "2019-08",
             "highlights": [
                 "Converted the OAuth application management portal from being user specific to a group-based system",
                 "Integrated a HaveIBeenPwned check using the k-anonymity API"
@@ -117,7 +116,7 @@
                 "Docker",
                 "Bash"
             ],
-            "startDate": "02/2022"
+            "startDate": "2022-02"
         },
         {
             "name": "Norm",
@@ -128,8 +127,8 @@
                 "Created an OMDB integration to allow for users to plan movie nights"
             ],
             "website": "https://github.com/Handy-Hangout-Studios/Norm",
-            "startDate": "06/2020",
-            "endDate": "12/2021",
+            "startDate": "2020-06",
+            "endDate": "2021-12",
             "keywords": [
                 "C#",
                 "Postgres",
@@ -145,8 +144,8 @@
                 "Authored a public and private documented library API for ease of future extension and contribution"
             ],
             "website": "https://github.com/Handy-Hangout-Studios/Recognizers.Text.Wrapper",
-            "startDate": "07/2021",
-            "endDate": "12/2021",
+            "startDate": "2021-07",
+            "endDate": "2021-12",
             "keywords": [
                 "C#"
             ]
