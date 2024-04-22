@@ -27,13 +27,9 @@ SOFTWARE.
 			<span class='title'>
 				{{#if institution}}{{institution}}{{/if}}
 			</span>
-			{{#if startDate}}
-			<span class='date'>
-				{{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
-			</span>
-			{{/if}}
+			{{{formatDatePrefixed endDate 'Graduation Date: '}}}
 			<div class=''>
-				{{#if studyType}}{{studyType}} {{/if}} - {{#if area}}{{area}}{{/if}}{{#if gpa}}, GPA: {{gpa}}{{/if}}
+				{{#if studyType}}{{studyType}} {{/if}} &ndash; {{#if area}}{{area}}{{/if}}{{#if gpa}}, GPA: {{gpa}}{{/if}}
 			</div>
 		
 		</div>

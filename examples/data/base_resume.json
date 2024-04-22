@@ -2,7 +2,7 @@
     "basics": {
         "name": "John Marsden",
         "image": "",
-        "email": "jmmarsde@ncsu.edu",
+        "email": "john@johnmarsden.dev",
         "phone": "+1 (325) 386-8728",
         "url": "https://johnmarsden.dev",
         "summary": "",
@@ -25,7 +25,7 @@
             "url": "https://www.csc.ncsu.edu/",
             "area": "Computer Science",
             "studyType": "Ph.D.",
-            "startDate": "2020-08",
+            "endDate": "2025-05",
             "gpa": "3.81"
         },
         {
@@ -33,79 +33,17 @@
             "url": "https://acu.edu",
             "area": "Math and Computer Science",
             "studyType": "B.S.",
-            "startDate": "2016-08",
             "endDate": "2020-05",
             "gpa": "3.84"
         }
     ],
-    "work": [
-        {
-            "name": "North Carolina State University",
-            "position": "Instructor - Software Development Fundamentals",
-            "url": "https://www.csc.ncsu.edu/",
-            "startDate": "2022-05",
-            "endDate": "2022-08",
-            "highlights": [
-                "Taught the software development process and test-driven development to 20 students",
-                "Engaged students through question and answer sections in each lecture",
-                "Created and administered three exams to validate students' learning progress"
-            ]
-        },
-        {
-            "name": "North Carolina State University",
-            "position": "Instructor - Introduction to Computing",
-            "url": "https://www.csc.ncsu.edu/",
-            "startDate": "2021-12",
-            "endDate": "2022-05",
-            "highlights": [
-                "Taught the fundamentals of Java to 40 students",
-                "Built two autograders using JUnit 5 to autograde student code submissions",
-                "Designed and administered three exams to validate students' learning progress"
-            ]
-        },
-        {
-            "name": "Secmation",
-            "position": "Software Development Intern",
-            "url": "https://secmation.com",
-            "startDate": "2021-05",
-            "endDate": "2021-08",
-            "highlights": [
-                "Planned and implemented 20% of a backend for a programming environment with Python",
-                "Outlined an API for the programming environment backend using AsyncAPI",
-                "Containerized the programming environment backend using Docker for scalability and ease of use"
-            ]
-        },
-        {
-            "name": "North Carolina State University",
-            "position": "Teaching Assistant",
-            "url": "https://www.csc.ncsu.edu/",
-            "startDate": "2020-08",
-            "endDate": "2022-12",
-            "highlights": [
-                "Helped 300+ students navigate the complexities of multi-project Java codebases",
-                "Validated 600+ student algorithmic analyses and algorithm designs",
-                "Graded 300+ student algorithms using common data structures, including stacks, graphs, etc."
-            ]
-        },
-        {
-            "name": "Faithlife",
-            "position": "Software Development Intern",
-            "url": "https://faithlife.com",
-            "startDate": "2019-05",
-            "endDate": "2019-08",
-            "highlights": [
-                "Converted the OAuth application management portal from being user specific to a group-based system",
-                "Integrated a HaveIBeenPwned check using the k-anonymity API"
-            ]
-        }
-    ],
     "projects": [
         {
-            "name": "cfg2vec",
-            "description": "A code embedding machine learning model that converts control-flow graphs (CFG) to vectors",
+            "name": "Machine Learning on Intermediate Languages",
             "highlights": [
+                "Created a code embedding machine learning model to convert control-flow graphs (CFG) to vectors",
                 "Wrote a custom intermediate language representation to represent CFGs for embedding",
-                "Reimplemented the deepwalk learning algorithm to convert the CFG to an embedding",
+                "Reimplemented the deepwalk learning algorithm for distributed learning",
                 "Constructed an attention network for using CFG embeddings to predict student performance"
             ],
             "keywords": [
@@ -114,40 +52,27 @@
                 "Rust",
                 "Java",
                 "Docker",
-                "Bash"
-            ],
-            "startDate": "2022-02"
+                "Bash",
+                "FLOSS",
+                "Machine Learning",
+                "Research"
+            ]
         },
         {
-            "name": "Norm",
-            "description": "A general-purpose Discord bot written with the dotnet framework",
+            "name": "General Purpose Discord Bot",
+            "description": "",
             "highlights": [
+                "Built Norm: A general-purpose Discord bot written with the .NET runtime",
                 "Implemented an HTML to Discord Markdown transpiler",
                 "Built an event announcement system that supported timezone adjustment and role-based announcements",
                 "Created an OMDB integration to allow for users to plan movie nights"
             ],
             "website": "https://github.com/Handy-Hangout-Studios/Norm",
-            "startDate": "2020-06",
-            "endDate": "2021-12",
             "keywords": [
                 "C#",
                 "Postgres",
-                "DSharpPlus"
-            ]
-        },
-        {
-            "name": "Recognizers.Text.Wrapper",
-            "description": "A wrapper library around the Microsoft.Recognizers.Text library adding static type support",
-            "highlights": [
-                "Created an extensible structure for supporting future recognizers",
-                "Completed the DateTime recognizer wrapper",
-                "Authored a public and private documented library API for ease of future extension and contribution"
-            ],
-            "website": "https://github.com/Handy-Hangout-Studios/Recognizers.Text.Wrapper",
-            "startDate": "2021-07",
-            "endDate": "2021-12",
-            "keywords": [
-                "C#"
+                "DSharpPlus",
+                "FLOSS"
             ]
         }
     ],
@@ -195,7 +120,6 @@
                 "Fuzzing",
                 "Github Actions",
                 "Docker",
-                "Dokku",
                 "Bash",
                 "Linux"
             ]

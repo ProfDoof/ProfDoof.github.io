@@ -27,18 +27,14 @@ SOFTWARE.
 			<span class='title'>
 				{{#if title}}{{title}}{{/if}}
 			</span>
-			{{#if date}}
-			<span class='date'>
-				<span class='date'>{{date}}</span>
-			</span>
-			{{/if}}
+			{{{formatDate date}}}
 		</div>
 		{{#if awarder}}
 			<div class="awarder">{{awarder}}</div>
 		{{/if}}
 		{{#if summary}}
 		<div class="summary">
-			<p>{{summary}}</p>
+			<p>{{{summary}}}</p>
 		</div>
 		{{/if}}
 		{{#unless @last}}<div class='separator'></div>{{/unless}}

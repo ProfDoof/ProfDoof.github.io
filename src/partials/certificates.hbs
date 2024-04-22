@@ -28,11 +28,7 @@ SOFTWARE.
 				{{#if name}}{{name}}{{/if}}
 			</span>
 			{{#if issuer}} | <span class="issuer">{{issuer}}</span>{{/if}}
-			{{#if date}}
-			<span class='date'>
-				<span class='date'>{{formatDate date}}</span>
-			</span>
-			{{/if}}
+            {{{formatDate date}}}
 		</div>
 		{{#if url}}
 		<div class='url'>
@@ -41,7 +37,7 @@ SOFTWARE.
 		{{/if}}
 		{{#if summary}}
 		<div class="summary">
-			<p>{{summary}}</p>
+			<p>{{{summary}}}</p>
 		</div>
 		{{/if}}
 		{{#unless @last}}<div class='separator'></div>{{/unless}}

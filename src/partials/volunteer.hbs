@@ -25,23 +25,19 @@ SOFTWARE.
 		{{#each resume.volunteer}}
 		<div class='blockHeader'>
 			<span class='title'>{{#if position}}{{position}}{{/if}}</span>{{#if organization}} | {{organization}}{{/if}}
-			{{#if startDate}}
-			<span class='date'>
-				{{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
-			</span>
-			{{/if}}
+            {{{formatDateRange startDate endDate}}}
 			{{#if url}}
 			<div class='url'><a href='{{url}}'>{{url}}</a></div>
 			{{/if}}
 			{{#if summary}}
 			<div class="summary">
-				<p>{{summary}}</p>
+				<p>{{{summary}}}</p>
 			</div>
 			{{/if}}
 			{{#if highlights.length}}
 			<ul class='highlights'>
 				{{#each highlights}}
-				<li>{{.}}</li>
+				<li>{{{.}}}</li>
 				{{/each}}
 			</ul>
 			{{/if}}

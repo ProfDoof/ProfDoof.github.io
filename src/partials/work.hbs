@@ -25,15 +25,10 @@ SOFTWARE.
 		{{#each resume.work}}
 		<div class="jobBlock">
 			<div class='blockHeader'>
-				<span class='title'>{{#if name}}{{name}}{{/if}}</span>
-				{{#if position}} | <span class="position">{{position}}</span>{{/if}}
-				{{#if startDate}}
-				<span class='date'>
-					{{#if startDate}}{{startDate}}{{/if}} &mdash; {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
-				</span>
-				{{/if}}
+                {{#if position}}<span class="position">{{position}}</span> | {{/if}}
+                <a href='{{url}}'><span class='title'>{{#if name}}{{name}}{{/if}}</span></a>
+                {{{formatDateRange startDate endDate}}}
 			</div>
-			<div><a href='{{url}}'>{{url}}</a></div>
 			{{#if summary}}
 			<div class="summary">
 				<p>{{summary}}</p>
@@ -42,7 +37,7 @@ SOFTWARE.
 			{{#if highlights.length}}
 			<ul class='highlights'>
 				{{#each highlights}}
-				<li>{{.}}</li>
+				<li>{{{.}}}</li>
 				{{/each}}
 			</ul>
 			{{/if}}

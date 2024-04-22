@@ -16,7 +16,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 SOFTWARE.
 }}
 {{#resume.basics}}
-<div id='nameBlock' class='largeFont'>
+<div class='nameBlock largeFont'>
 	<span class='name'>
 		{{name}}{{#if label}},{{/if}}
 	</span>
@@ -41,11 +41,11 @@ SOFTWARE.
 		{{/location}}
 	</div>
 	{{#if profiles.length}}
-	<div id='profilesBlock'>
+	<div class='profilesBlock'>
 		{{#each profiles}}
 		{{#if url}}
 		<span class='url'>
-			<b>{{network}}:</b> <a href='{{url}}'>{{url}}</a>
+            <b><a href='{{url}}'>{{network}}</a></b>
 		</span>
 		{{#unless @last}}<span class='divider'>|</span>{{/unless}}
 		{{/if}}
@@ -62,7 +62,7 @@ SOFTWARE.
 		<span>SUMMARY</span>
 	</div>
 	<div class='sectionContent'>
-		<span>{{resume.basics.summary}}</span>
+		<span>{{{resume.basics.summary}}}</span>
 	</div>
 </div>
 {{/if}}

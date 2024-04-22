@@ -1,19 +1,9 @@
-export default function formatDate(dateString: string) {
-    const dateStrArr = dateString.split('-');
-    const [a, b, c] = dateStrArr;
+import { formatDateString } from './formatDateString.js';
 
-    if ((a !== "") && (b !== "") && (c !== ""))
-        return new Date(dateString).toLocaleDateString('en', {
-            month: 'short',
-            year: 'numeric',
-            day: 'numeric',
-        });
+export default function formatDate(dateString: string | undefined) {
+    if (dateString === undefined) {
+        return '';
+    }
 
-    if ((a !== "") && (b !== ""))
-        return new Date(dateString).toLocaleDateString('en', {
-            month: 'short',
-            year: 'numeric',
-        });
-
-    return dateStrArr;
+    return `<span class="date">${formatDateString(dateString)}</span>`;
 }

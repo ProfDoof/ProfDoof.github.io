@@ -7,7 +7,7 @@
     "strict": true,
     "skipLibCheck": true,
     "rootDir": "src",
-    "outDir": "dist",
+    "outDir": "build",
     "sourceMap": true,
     "moduleResolution": "NodeNext",
   }

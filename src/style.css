@@ -17,10 +17,6 @@ ul {
     margin-bottom: 0;
 }
 
-li {
-    margin-bottom: 2px;
-}
-
 a {
     text-decoration: none;
 }
@@ -28,11 +24,18 @@ a {
 #resume {
     margin: 0 auto;
     max-width: 600px;
-    padding: 80px 100px;
+    padding: 1in 1in;
     background: #fff;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 4px #aaa;
     -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.nameBlock, .contactBlock, .profilesBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .coursesList {
@@ -55,20 +58,20 @@ a {
 }
 
 .sectionName {
-    width: 18%;
+    width: 16%;
     vertical-align: top;
     display: inline-block;
 }
 
 .sectionContent {
-    width: 80%;
+    width: 84%;
     vertical-align: top;
     display: inline-block;
 }
 
 .sectionContent ul {
     padding-left: 20px;
-    margin-top: 6px;
+    margin-top: 0;
     list-style-type: circle;
 }
 
@@ -81,15 +84,17 @@ a {
 }
 
 .sectionContent .separator {
-    height: 14px;
+    border: 1px dashed #CFCFCF;
+    margin-top: 4px;
+    margin-bottom: 3px;
 }
 
 .sectionLine {
     border-style: dashed;
     border-width: 1px;
     border-color: #CFCFCF;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 3px;
+    margin-bottom: 7px;
 }
 
 .divider {
@@ -102,10 +107,6 @@ a {
     margin-top: 6px;
 }
 
-.skillBlock {
-    margin-bottom: 4px;
-}
-
 .jobBlock {
     page-break-inside: avoid;
 }
@@ -115,8 +116,7 @@ a {
 }
 
 blockquote.reference {
-    margin: 0;
-    margin-bottom: 1em;
+    margin: 0 0 1em;
 }
 
 
@@ -156,17 +156,26 @@ blockquote.reference {
 @media print {
     body {
         background: #FFFFFF;
+        margin: 0;
     }
     #resume {
         margin: 0 auto;
-        max-width: 600px;
-        padding: 0px 0px;
-        border: 0px;
+        padding: 0;
+        border: 0;
+        max-width: 100%;
         background: #fff;
         box-shadow: none;
         -webkit-box-shadow: none;
     }
     a {
         color: black;
+    }
+
+    .sectionName {
+        width: 14%;
+    }
+
+    .sectionContent {
+        width: 86%;
     }
 }

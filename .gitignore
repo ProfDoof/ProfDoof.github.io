@@ -1,3 +1,5 @@
 resume.*
 john_marsden.*
 node_modules/
+*.DS_Store
+*/._*

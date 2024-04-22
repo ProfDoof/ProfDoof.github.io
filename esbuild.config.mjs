@@ -14,7 +14,9 @@ await esbuild.build({
     plugins: [
         handlebarsPlugin({
             additionalHelpers: {
-                "formatDate": "../helpers/formatDate.ts"
+                "formatDate": "../helpers/formatDate.ts",
+                "formatDateRange": "../helpers/formatDateRange.ts",
+                "formatDatePrefixed": "../helpers/formatDatePrefixed.ts"
             },
             additionalPartials: {
                 "awards": "./partials/awards.hbs",

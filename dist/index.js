@@ -33,7 +33,7 @@ var basics_default = Handlebars.template({ "1": function(container, depth0, help
     }
     return void 0;
   };
-  return "<div id='nameBlock' class='largeFont'>\n	<span class='name'>\n		" + container.escapeExpression(alias1(depth0 != null ? lookupProperty(depth0, "name") : depth0, depth0)) + ((stack1 = lookupProperty(helpers, "if").call(alias2, depth0 != null ? lookupProperty(depth0, "label") : depth0, { "name": "if", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 21, "column": 10 }, "end": { "line": 21, "column": 31 } } })) != null ? stack1 : "") + "\n	</span>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias2, depth0 != null ? lookupProperty(depth0, "label") : depth0, { "name": "if", "hash": {}, "fn": container.program(4, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 23, "column": 1 }, "end": { "line": 25, "column": 8 } } })) != null ? stack1 : "") + "</div>\n<div id='basicsBlock' class='smallFont'>\n	<div class='contactBlock'>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias2, depth0 != null ? lookupProperty(depth0, "email") : depth0, { "name": "if", "hash": {}, "fn": container.program(6, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 29, "column": 2 }, "end": { "line": 31, "column": 9 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias2, depth0 != null ? lookupProperty(depth0, "phone") : depth0, { "name": "if", "hash": {}, "fn": container.program(8, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 32, "column": 2 }, "end": { "line": 35, "column": 9 } } })) != null ? stack1 : "") + ((stack1 = container.hooks.blockHelperMissing.call(depth0, alias1(depth0 != null ? lookupProperty(depth0, "location") : depth0, depth0), { "name": "location", "hash": {}, "fn": container.program(10, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 36, "column": 2 }, "end": { "line": 41, "column": 15 } } })) != null ? stack1 : "") + "	</div>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias2, (stack1 = depth0 != null ? lookupProperty(depth0, "profiles") : depth0) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(17, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 43, "column": 1 }, "end": { "line": 54, "column": 8 } } })) != null ? stack1 : "") + "</div>\n";
+  return "<div class='nameBlock largeFont'>\n	<span class='name'>\n		" + container.escapeExpression(alias1(depth0 != null ? lookupProperty(depth0, "name") : depth0, depth0)) + ((stack1 = lookupProperty(helpers, "if").call(alias2, depth0 != null ? lookupProperty(depth0, "label") : depth0, { "name": "if", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 21, "column": 10 }, "end": { "line": 21, "column": 31 } } })) != null ? stack1 : "") + "\n	</span>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias2, depth0 != null ? lookupProperty(depth0, "label") : depth0, { "name": "if", "hash": {}, "fn": container.program(4, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 23, "column": 1 }, "end": { "line": 25, "column": 8 } } })) != null ? stack1 : "") + "</div>\n<div id='basicsBlock' class='smallFont'>\n	<div class='contactBlock'>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias2, depth0 != null ? lookupProperty(depth0, "email") : depth0, { "name": "if", "hash": {}, "fn": container.program(6, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 29, "column": 2 }, "end": { "line": 31, "column": 9 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias2, depth0 != null ? lookupProperty(depth0, "phone") : depth0, { "name": "if", "hash": {}, "fn": container.program(8, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 32, "column": 2 }, "end": { "line": 35, "column": 9 } } })) != null ? stack1 : "") + ((stack1 = container.hooks.blockHelperMissing.call(depth0, alias1(depth0 != null ? lookupProperty(depth0, "location") : depth0, depth0), { "name": "location", "hash": {}, "fn": container.program(10, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 36, "column": 2 }, "end": { "line": 41, "column": 15 } } })) != null ? stack1 : "") + "	</div>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias2, (stack1 = depth0 != null ? lookupProperty(depth0, "profiles") : depth0) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(17, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 43, "column": 1 }, "end": { "line": 54, "column": 8 } } })) != null ? stack1 : "") + "</div>\n";
 }, "2": function(container, depth0, helpers, partials, data) {
   return ",";
 }, "4": function(container, depth0, helpers, partials, data) {
@@ -99,7 +99,7 @@ var basics_default = Handlebars.template({ "1": function(container, depth0, help
     }
     return void 0;
   };
-  return "	<div id='profilesBlock'>\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, depth0 != null ? lookupProperty(depth0, "profiles") : depth0, { "name": "each", "hash": {}, "fn": container.program(18, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 45, "column": 2 }, "end": { "line": 52, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n";
+  return "	<div class='profilesBlock'>\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, depth0 != null ? lookupProperty(depth0, "profiles") : depth0, { "name": "each", "hash": {}, "fn": container.program(18, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 45, "column": 2 }, "end": { "line": 52, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n";
 }, "18": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -115,7 +115,7 @@ var basics_default = Handlebars.template({ "1": function(container, depth0, help
     }
     return void 0;
   };
-  return "		<span class='url'>\n			<b>" + alias2(alias1(depth0 != null ? lookupProperty(depth0, "network") : depth0, depth0)) + ":</b> <a href='" + alias2(alias1(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "'>" + alias2(alias1(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "</a>\n		</span>\n		" + ((stack1 = lookupProperty(helpers, "unless").call(depth0 != null ? depth0 : container.nullContext || {}, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(20, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 50, "column": 2 }, "end": { "line": 50, "column": 60 } } })) != null ? stack1 : "") + "\n";
+  return "		<span class='url'>\n            <b><a href='" + alias2(alias1(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "'>" + alias2(alias1(depth0 != null ? lookupProperty(depth0, "network") : depth0, depth0)) + "</a></b>\n		</span>\n		" + ((stack1 = lookupProperty(helpers, "unless").call(depth0 != null ? depth0 : container.nullContext || {}, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(20, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/basics.hbs", "start": { "line": 50, "column": 2 }, "end": { "line": 50, "column": 60 } } })) != null ? stack1 : "") + "\n";
 }, "20": function(container, depth0, helpers, partials, data) {
   return "<span class='divider'>|</span>";
 }, "22": function(container, depth0, helpers, partials, data) {
@@ -131,7 +131,7 @@ var basics_default = Handlebars.template({ "1": function(container, depth0, help
 		<span>SUMMARY</span>
 	</div>
 	<div class='sectionContent'>
-		<span>` + container.escapeExpression(container.lambda((stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "basics") : stack1) != null ? lookupProperty(stack1, "summary") : stack1, depth0)) + "</span>\n	</div>\n</div>\n";
+		<span>` + ((stack1 = container.lambda((stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "basics") : stack1) != null ? lookupProperty(stack1, "summary") : stack1, depth0)) != null ? stack1 : "") + "</span>\n	</div>\n</div>\n";
 }, "compiler": [8, ">= 4.3.0"], "main": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -144,7 +144,25 @@ var basics_default = Handlebars.template({ "1": function(container, depth0, help
 
 // src/partials/education.hbs
 import Handlebars2 from "handlebars/dist/handlebars.runtime.js";
-Handlebars2.registerHelper({});
+
+// src/helpers/formatDateString.ts
+function formatDateString(dateString) {
+  return new Date(dateString).toLocaleDateString("en", {
+    dateStyle: "short"
+  });
+}
+
+// src/helpers/formatDatePrefixed.ts
+function formatDate(dateString, prefix) {
+  if (dateString === void 0) {
+    return "";
+  }
+  prefix = prefix === void 0 ? "" : prefix;
+  return `<span class="date">${prefix}${formatDateString(dateString)}</span>`;
+}
+
+// src/partials/education.hbs
+Handlebars2.registerHelper({ formatDatePrefixed: formatDate });
 Handlebars2.registerPartial({});
 var education_default = Handlebars2.template({ "1": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -159,7 +177,7 @@ var education_default = Handlebars2.template({ "1": function(container, depth0, 
 		<span>EDUCATION</span>
 	</div>
 	<div class='sectionContent'>
-` + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "education") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 41, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
+` + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "education") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 37, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
 }, "2": function(container, depth0, helpers, partials, data) {
   var stack1, alias1 = depth0 != null ? depth0 : container.nullContext || {}, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -167,7 +185,7 @@ var education_default = Handlebars2.template({ "1": function(container, depth0, 
     }
     return void 0;
   };
-  return "		<div class='educationBlock'>\n			<span class='title'>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "institution") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 45 } } })) != null ? stack1 : "") + "\n			</span>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "startDate") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 30, "column": 3 }, "end": { "line": 34, "column": 10 } } })) != null ? stack1 : "") + "			<div class=''>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "studyType") : depth0, { "name": "if", "hash": {}, "fn": container.program(12, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 36, "column": 4 }, "end": { "line": 36, "column": 42 } } })) != null ? stack1 : "") + " - " + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "area") : depth0, { "name": "if", "hash": {}, "fn": container.program(14, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 36, "column": 45 }, "end": { "line": 36, "column": 72 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "gpa") : depth0, { "name": "if", "hash": {}, "fn": container.program(16, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 36, "column": 72 }, "end": { "line": 36, "column": 104 } } })) != null ? stack1 : "") + "\n			</div>\n		\n		</div>\n		" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(18, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 40, "column": 2 }, "end": { "line": 40, "column": 59 } } })) != null ? stack1 : "") + "\n";
+  return "		<div class='educationBlock'>\n			<span class='title'>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "institution") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 45 } } })) != null ? stack1 : "") + "\n			</span>\n			" + ((stack1 = lookupProperty(helpers, "formatDatePrefixed").call(alias1, depth0 != null ? lookupProperty(depth0, "endDate") : depth0, "Graduation Date: ", { "name": "formatDatePrefixed", "hash": {}, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 30, "column": 3 }, "end": { "line": 30, "column": 55 } } })) != null ? stack1 : "") + "\n			<div class=''>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "studyType") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 32, "column": 4 }, "end": { "line": 32, "column": 42 } } })) != null ? stack1 : "") + " &ndash; " + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "area") : depth0, { "name": "if", "hash": {}, "fn": container.program(7, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 32, "column": 51 }, "end": { "line": 32, "column": 78 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "gpa") : depth0, { "name": "if", "hash": {}, "fn": container.program(9, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 32, "column": 78 }, "end": { "line": 32, "column": 110 } } })) != null ? stack1 : "") + "\n			</div>\n		\n		</div>\n		" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(11, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 36, "column": 2 }, "end": { "line": 36, "column": 59 } } })) != null ? stack1 : "") + "\n";
 }, "3": function(container, depth0, helpers, partials, data) {
   var lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -177,32 +195,6 @@ var education_default = Handlebars2.template({ "1": function(container, depth0, 
   };
   return container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "institution") : depth0, depth0));
 }, "5": function(container, depth0, helpers, partials, data) {
-  var stack1, alias1 = depth0 != null ? depth0 : container.nullContext || {}, lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return "			<span class='date'>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "startDate") : depth0, { "name": "if", "hash": {}, "fn": container.program(6, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 32, "column": 4 }, "end": { "line": 32, "column": 41 } } })) != null ? stack1 : "") + " &mdash; " + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "endDate") : depth0, { "name": "if", "hash": {}, "fn": container.program(8, data, 0), "inverse": container.program(10, data, 0), "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 32, "column": 50 }, "end": { "line": 32, "column": 98 } } })) != null ? stack1 : "") + "\n			</span>\n";
-}, "6": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "startDate") : depth0, depth0));
-}, "8": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "endDate") : depth0, depth0));
-}, "10": function(container, depth0, helpers, partials, data) {
-  return "Present";
-}, "12": function(container, depth0, helpers, partials, data) {
   var lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
@@ -210,7 +202,7 @@ var education_default = Handlebars2.template({ "1": function(container, depth0, 
     return void 0;
   };
   return container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "studyType") : depth0, depth0)) + " ";
-}, "14": function(container, depth0, helpers, partials, data) {
+}, "7": function(container, depth0, helpers, partials, data) {
   var lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
@@ -218,7 +210,7 @@ var education_default = Handlebars2.template({ "1": function(container, depth0, 
     return void 0;
   };
   return container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "area") : depth0, depth0));
-}, "16": function(container, depth0, helpers, partials, data) {
+}, "9": function(container, depth0, helpers, partials, data) {
   var lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
@@ -226,7 +218,7 @@ var education_default = Handlebars2.template({ "1": function(container, depth0, 
     return void 0;
   };
   return ", GPA: " + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "gpa") : depth0, depth0));
-}, "18": function(container, depth0, helpers, partials, data) {
+}, "11": function(container, depth0, helpers, partials, data) {
   return "<div class='separator'></div>";
 }, "compiler": [8, ">= 4.3.0"], "main": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -235,7 +227,7 @@ var education_default = Handlebars2.template({ "1": function(container, depth0, 
     }
     return void 0;
   };
-  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "education") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 44, "column": 7 } } })) != null ? stack1 : "";
+  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "education") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/education.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 40, "column": 7 } } })) != null ? stack1 : "";
 }, "useData": true });
 
 // src/partials/skills.hbs
@@ -344,7 +336,30 @@ var skills_default = Handlebars3.template({ "1": function(container, depth0, hel
 
 // src/partials/work.hbs
 import Handlebars4 from "handlebars/dist/handlebars.runtime.js";
-Handlebars4.registerHelper({});
+
+// src/helpers/formatDateRange.ts
+function formatDateRange(startDate, endDate) {
+  const out = [];
+  const hasStart = startDate !== void 0 && startDate !== "";
+  const hasEnd = endDate !== void 0 && endDate !== "";
+  if (!hasStart && !hasEnd) {
+    return "";
+  }
+  out.push('<span class="date">');
+  if (hasStart) {
+    out.push(formatDateString(startDate), " &ndash; ");
+  }
+  if (hasEnd) {
+    out.push(formatDateString(endDate));
+  } else {
+    out.push("Present");
+  }
+  out.push("</span>");
+  return out.join("");
+}
+
+// src/partials/work.hbs
+Handlebars4.registerHelper({ formatDateRange });
 Handlebars4.registerPartial({});
 var work_default = Handlebars4.template({ "1": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -359,9 +374,9 @@ var work_default = Handlebars4.template({ "1": function(container, depth0, helpe
 		<span>EXPERIENCE</span>
 	</div>
 	<div class='sectionContent'>
-` + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "work") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 51, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
+` + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "work") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 46, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
 }, "2": function(container, depth0, helpers, partials, data) {
-  var stack1, alias1 = depth0 != null ? depth0 : container.nullContext || {}, alias2 = container.lambda, alias3 = container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+  var stack1, alias1 = depth0 != null ? depth0 : container.nullContext || {}, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
     }
@@ -369,7 +384,7 @@ var work_default = Handlebars4.template({ "1": function(container, depth0, helpe
   };
   return `		<div class="jobBlock">
 			<div class='blockHeader'>
-				<span class='title'>` + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "name") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 28, "column": 24 }, "end": { "line": 28, "column": 51 } } })) != null ? stack1 : "") + "</span>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "position") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 29, "column": 4 }, "end": { "line": 29, "column": 72 } } })) != null ? stack1 : "") + "\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "startDate") : depth0, { "name": "if", "hash": {}, "fn": container.program(7, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 30, "column": 4 }, "end": { "line": 34, "column": 11 } } })) != null ? stack1 : "") + "			</div>\n			<div><a href='" + alias3(alias2(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "'>" + alias3(alias2(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "</a></div>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "summary") : depth0, { "name": "if", "hash": {}, "fn": container.program(14, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 37, "column": 3 }, "end": { "line": 41, "column": 10 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, (stack1 = depth0 != null ? lookupProperty(depth0, "highlights") : depth0) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(16, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 42, "column": 3 }, "end": { "line": 48, "column": 10 } } })) != null ? stack1 : "") + "			" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(19, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 49, "column": 3 }, "end": { "line": 49, "column": 60 } } })) != null ? stack1 : "") + "\n		</div>\n";
+                ` + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "position") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 28, "column": 16 }, "end": { "line": 28, "column": 84 } } })) != null ? stack1 : "") + "\n                <a href='" + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "'><span class='title'>" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "name") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 29, "column": 54 }, "end": { "line": 29, "column": 81 } } })) != null ? stack1 : "") + "</span></a>\n                " + ((stack1 = lookupProperty(helpers, "formatDateRange").call(alias1, depth0 != null ? lookupProperty(depth0, "startDate") : depth0, depth0 != null ? lookupProperty(depth0, "endDate") : depth0, { "name": "formatDateRange", "hash": {}, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 30, "column": 16 }, "end": { "line": 30, "column": 55 } } })) != null ? stack1 : "") + "\n			</div>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "summary") : depth0, { "name": "if", "hash": {}, "fn": container.program(7, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 32, "column": 3 }, "end": { "line": 36, "column": 10 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, (stack1 = depth0 != null ? lookupProperty(depth0, "highlights") : depth0) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(9, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 37, "column": 3 }, "end": { "line": 43, "column": 10 } } })) != null ? stack1 : "") + "			" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(12, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 44, "column": 3 }, "end": { "line": 44, "column": 60 } } })) != null ? stack1 : "") + "\n		</div>\n";
 }, "3": function(container, depth0, helpers, partials, data) {
   var lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -377,7 +392,7 @@ var work_default = Handlebars4.template({ "1": function(container, depth0, helpe
     }
     return void 0;
   };
-  return container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "name") : depth0, depth0));
+  return '<span class="position">' + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "position") : depth0, depth0)) + "</span> | ";
 }, "5": function(container, depth0, helpers, partials, data) {
   var lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -385,34 +400,8 @@ var work_default = Handlebars4.template({ "1": function(container, depth0, helpe
     }
     return void 0;
   };
-  return ' | <span class="position">' + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "position") : depth0, depth0)) + "</span>";
+  return container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "name") : depth0, depth0));
 }, "7": function(container, depth0, helpers, partials, data) {
-  var stack1, alias1 = depth0 != null ? depth0 : container.nullContext || {}, lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return "				<span class='date'>\n					" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "startDate") : depth0, { "name": "if", "hash": {}, "fn": container.program(8, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 32, "column": 5 }, "end": { "line": 32, "column": 42 } } })) != null ? stack1 : "") + " &mdash; " + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "endDate") : depth0, { "name": "if", "hash": {}, "fn": container.program(10, data, 0), "inverse": container.program(12, data, 0), "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 32, "column": 51 }, "end": { "line": 32, "column": 99 } } })) != null ? stack1 : "") + "\n				</span>\n";
-}, "8": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "startDate") : depth0, depth0));
-}, "10": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "endDate") : depth0, depth0));
-}, "12": function(container, depth0, helpers, partials, data) {
-  return "Present";
-}, "14": function(container, depth0, helpers, partials, data) {
   var lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
@@ -420,17 +409,18 @@ var work_default = Handlebars4.template({ "1": function(container, depth0, helpe
     return void 0;
   };
   return '			<div class="summary">\n				<p>' + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "summary") : depth0, depth0)) + "</p>\n			</div>\n";
-}, "16": function(container, depth0, helpers, partials, data) {
+}, "9": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
     }
     return void 0;
   };
-  return "			<ul class='highlights'>\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, depth0 != null ? lookupProperty(depth0, "highlights") : depth0, { "name": "each", "hash": {}, "fn": container.program(17, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 44, "column": 4 }, "end": { "line": 46, "column": 13 } } })) != null ? stack1 : "") + "			</ul>\n";
-}, "17": function(container, depth0, helpers, partials, data) {
-  return "				<li>" + container.escapeExpression(container.lambda(depth0, depth0)) + "</li>\n";
-}, "19": function(container, depth0, helpers, partials, data) {
+  return "			<ul class='highlights'>\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, depth0 != null ? lookupProperty(depth0, "highlights") : depth0, { "name": "each", "hash": {}, "fn": container.program(10, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 39, "column": 4 }, "end": { "line": 41, "column": 13 } } })) != null ? stack1 : "") + "			</ul>\n";
+}, "10": function(container, depth0, helpers, partials, data) {
+  var stack1;
+  return "				<li>" + ((stack1 = container.lambda(depth0, depth0)) != null ? stack1 : "") + "</li>\n";
+}, "12": function(container, depth0, helpers, partials, data) {
   return "<div class='separator'></div>";
 }, "compiler": [8, ">= 4.3.0"], "main": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -439,32 +429,22 @@ var work_default = Handlebars4.template({ "1": function(container, depth0, helpe
     }
     return void 0;
   };
-  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "work") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 54, "column": 7 } } })) != null ? stack1 : "";
+  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "work") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/work.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 49, "column": 7 } } })) != null ? stack1 : "";
 }, "useData": true });
 
 // src/partials/publications.hbs
 import Handlebars5 from "handlebars/dist/handlebars.runtime.js";
 
 // src/helpers/formatDate.ts
-function formatDate(dateString) {
-  const dateStrArr = dateString.split("-");
-  const [a, b, c] = dateStrArr;
-  if (a !== "" && b !== "" && c !== "")
-    return new Date(dateString).toLocaleDateString("en", {
-      month: "short",
-      year: "numeric",
-      day: "numeric"
-    });
-  if (a !== "" && b !== "")
-    return new Date(dateString).toLocaleDateString("en", {
-      month: "short",
-      year: "numeric"
-    });
-  return dateStrArr;
+function formatDate2(dateString) {
+  if (dateString === void 0) {
+    return "";
+  }
+  return `<span class="date">${formatDateString(dateString)}</span>`;
 }
 
 // src/partials/publications.hbs
-Handlebars5.registerHelper({ formatDate });
+Handlebars5.registerHelper({ formatDate: formatDate2 });
 Handlebars5.registerPartial({});
 var publications_default = Handlebars5.template({ "1": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -473,7 +453,7 @@ var publications_default = Handlebars5.template({ "1": function(container, depth
     }
     return void 0;
   };
-  return "<div class='sectionLine'></div>\n<div id='publications'>\n	<div class='sectionName'>\n		<span>PUBLICATIONS</span>\n	</div>\n	<div class='sectionContent'>\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "publications") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 50, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
+  return "<div class='sectionLine'></div>\n<div id='publications'>\n	<div class='sectionName'>\n		<span>PUBLICATIONS</span>\n	</div>\n	<div class='sectionContent'>\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "publications") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 46, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
 }, "2": function(container, depth0, helpers, partials, data) {
   var stack1, alias1 = depth0 != null ? depth0 : container.nullContext || {}, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -481,7 +461,7 @@ var publications_default = Handlebars5.template({ "1": function(container, depth
     }
     return void 0;
   };
-  return "		<div class='blockHeader'>\n			<span class='title'>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "name") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 31 } } })) != null ? stack1 : "") + "\n			</span>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "releaseDate") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 30, "column": 3 }, "end": { "line": 34, "column": 10 } } })) != null ? stack1 : "") + "		</div>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "publisher") : depth0, { "name": "if", "hash": {}, "fn": container.program(7, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 36, "column": 2 }, "end": { "line": 38, "column": 9 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "url") : depth0, { "name": "if", "hash": {}, "fn": container.program(9, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 39, "column": 2 }, "end": { "line": 43, "column": 9 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "summary") : depth0, { "name": "if", "hash": {}, "fn": container.program(11, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 44, "column": 2 }, "end": { "line": 48, "column": 9 } } })) != null ? stack1 : "") + "		" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(13, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 49, "column": 2 }, "end": { "line": 49, "column": 59 } } })) != null ? stack1 : "") + "\n";
+  return "		<div class='blockHeader'>\n			<span class='title'>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "name") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 31 } } })) != null ? stack1 : "") + "\n			</span>\n            " + ((stack1 = lookupProperty(helpers, "formatDate").call(alias1, depth0 != null ? lookupProperty(depth0, "releaseDate") : depth0, { "name": "formatDate", "hash": {}, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 30, "column": 12 }, "end": { "line": 30, "column": 40 } } })) != null ? stack1 : "") + "\n		</div>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "publisher") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 32, "column": 2 }, "end": { "line": 34, "column": 9 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "url") : depth0, { "name": "if", "hash": {}, "fn": container.program(7, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 35, "column": 2 }, "end": { "line": 39, "column": 9 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "summary") : depth0, { "name": "if", "hash": {}, "fn": container.program(9, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 40, "column": 2 }, "end": { "line": 44, "column": 9 } } })) != null ? stack1 : "") + "		" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(11, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 45, "column": 2 }, "end": { "line": 45, "column": 59 } } })) != null ? stack1 : "") + "\n";
 }, "3": function(container, depth0, helpers, partials, data) {
   var lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -497,16 +477,8 @@ var publications_default = Handlebars5.template({ "1": function(container, depth
     }
     return void 0;
   };
-  return "			<span class='date'>\n				<span class='releaseDate'>" + container.escapeExpression(lookupProperty(helpers, "formatDate").call(depth0 != null ? depth0 : container.nullContext || {}, depth0 != null ? lookupProperty(depth0, "releaseDate") : depth0, { "name": "formatDate", "hash": {}, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 32, "column": 30 }, "end": { "line": 32, "column": 56 } } })) + "</span>\n			</span>\n";
-}, "7": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
   return '		<div class="publisher">' + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "publisher") : depth0, depth0)) + "</div>\n";
-}, "9": function(container, depth0, helpers, partials, data) {
+}, "7": function(container, depth0, helpers, partials, data) {
   var alias1 = container.lambda, alias2 = container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
@@ -514,15 +486,15 @@ var publications_default = Handlebars5.template({ "1": function(container, depth
     return void 0;
   };
   return "		<div class='url'>\n			<a href='" + alias2(alias1(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "'>" + alias2(alias1(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "</a>\n		</div>\n";
-}, "11": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
+}, "9": function(container, depth0, helpers, partials, data) {
+  var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
     }
     return void 0;
   };
-  return '		<div class="summary">\n			<p>' + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "summary") : depth0, depth0)) + "</p>\n		</div>\n";
-}, "13": function(container, depth0, helpers, partials, data) {
+  return '		<div class="summary">\n			<p>' + ((stack1 = container.lambda(depth0 != null ? lookupProperty(depth0, "summary") : depth0, depth0)) != null ? stack1 : "") + "</p>\n		</div>\n";
+}, "11": function(container, depth0, helpers, partials, data) {
   return "<div class='separator'></div>";
 }, "compiler": [8, ">= 4.3.0"], "main": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -531,12 +503,12 @@ var publications_default = Handlebars5.template({ "1": function(container, depth
     }
     return void 0;
   };
-  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "publications") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 53, "column": 7 } } })) != null ? stack1 : "";
+  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "publications") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/publications.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 49, "column": 7 } } })) != null ? stack1 : "";
 }, "useData": true });
 
 // src/partials/projects.hbs
 import Handlebars6 from "handlebars/dist/handlebars.runtime.js";
-Handlebars6.registerHelper({});
+Handlebars6.registerHelper({ formatDateRange });
 Handlebars6.registerPartial({});
 var projects_default = Handlebars6.template({ "1": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -551,7 +523,7 @@ var projects_default = Handlebars6.template({ "1": function(container, depth0, h
 		<span>PROJECTS</span>
 	</div>
 	<div class='sectionContent'>
-` + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "projects") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 54, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
+` + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "projects") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 50, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
 }, "2": function(container, depth0, helpers, partials, data) {
   var stack1, alias1 = depth0 != null ? depth0 : container.nullContext || {}, alias2 = container.lambda, alias3 = container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -562,7 +534,7 @@ var projects_default = Handlebars6.template({ "1": function(container, depth0, h
   return `		<div class="projectBlock">
 			<div class='blockHeader'>
 				<span class='title'>
-					` + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "name") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 29, "column": 5 }, "end": { "line": 29, "column": 32 } } })) != null ? stack1 : "") + "\n				</span>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "entity") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 31, "column": 4 }, "end": { "line": 31, "column": 66 } } })) != null ? stack1 : "") + "\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, (stack1 = depth0 != null ? lookupProperty(depth0, "roles") : depth0) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(7, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 32, "column": 4 }, "end": { "line": 32, "column": 120 } } })) != null ? stack1 : "") + "\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "startDate") : depth0, { "name": "if", "hash": {}, "fn": container.program(11, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 33, "column": 4 }, "end": { "line": 37, "column": 11 } } })) != null ? stack1 : "") + "			</div>\n			<div><a href='" + alias3(alias2(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "'>" + alias3(alias2(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "</a></div>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "description") : depth0, { "name": "if", "hash": {}, "fn": container.program(18, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 40, "column": 3 }, "end": { "line": 44, "column": 10 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, (stack1 = depth0 != null ? lookupProperty(depth0, "highlights") : depth0) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(20, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 45, "column": 3 }, "end": { "line": 51, "column": 10 } } })) != null ? stack1 : "") + "			" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(23, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 52, "column": 3 }, "end": { "line": 52, "column": 60 } } })) != null ? stack1 : "") + "\n		</div>\n";
+					` + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "name") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 29, "column": 5 }, "end": { "line": 29, "column": 32 } } })) != null ? stack1 : "") + "\n				</span>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "entity") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 31, "column": 4 }, "end": { "line": 31, "column": 66 } } })) != null ? stack1 : "") + "\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, (stack1 = depth0 != null ? lookupProperty(depth0, "roles") : depth0) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(7, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 32, "column": 4 }, "end": { "line": 32, "column": 122 } } })) != null ? stack1 : "") + "\n                " + ((stack1 = lookupProperty(helpers, "formatDateRange").call(alias1, depth0 != null ? lookupProperty(depth0, "startDate") : depth0, depth0 != null ? lookupProperty(depth0, "endDate") : depth0, { "name": "formatDateRange", "hash": {}, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 33, "column": 16 }, "end": { "line": 33, "column": 55 } } })) != null ? stack1 : "") + "\n			</div>\n			<div><a href='" + alias3(alias2(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "'>" + alias3(alias2(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "</a></div>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "description") : depth0, { "name": "if", "hash": {}, "fn": container.program(11, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 36, "column": 3 }, "end": { "line": 40, "column": 10 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, (stack1 = depth0 != null ? lookupProperty(depth0, "highlights") : depth0) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(13, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 41, "column": 3 }, "end": { "line": 47, "column": 10 } } })) != null ? stack1 : "") + "			" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(16, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 48, "column": 3 }, "end": { "line": 48, "column": 60 } } })) != null ? stack1 : "") + "\n		</div>\n";
 }, "3": function(container, depth0, helpers, partials, data) {
   var lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -586,7 +558,7 @@ var projects_default = Handlebars6.template({ "1": function(container, depth0, h
     }
     return void 0;
   };
-  return ' | <span class="roles">' + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, depth0 != null ? lookupProperty(depth0, "roles") : depth0, { "name": "each", "hash": {}, "fn": container.program(8, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 32, "column": 47 }, "end": { "line": 32, "column": 106 } } })) != null ? stack1 : "") + "</span>";
+  return ' | <span class="roles">' + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, depth0 != null ? lookupProperty(depth0, "roles") : depth0, { "name": "each", "hash": {}, "fn": container.program(8, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 32, "column": 47 }, "end": { "line": 32, "column": 108 } } })) != null ? stack1 : "") + "</span>";
 }, "8": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -594,54 +566,29 @@ var projects_default = Handlebars6.template({ "1": function(container, depth0, h
     }
     return void 0;
   };
-  return container.escapeExpression(container.lambda(depth0, depth0)) + ((stack1 = lookupProperty(helpers, "unless").call(depth0 != null ? depth0 : container.nullContext || {}, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(9, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 32, "column": 67 }, "end": { "line": 32, "column": 97 } } })) != null ? stack1 : "");
+  return ((stack1 = container.lambda(depth0, depth0)) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "unless").call(depth0 != null ? depth0 : container.nullContext || {}, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(9, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 32, "column": 69 }, "end": { "line": 32, "column": 99 } } })) != null ? stack1 : "");
 }, "9": function(container, depth0, helpers, partials, data) {
   return ", ";
 }, "11": function(container, depth0, helpers, partials, data) {
-  var stack1, alias1 = depth0 != null ? depth0 : container.nullContext || {}, lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return "				<span class='date'>\n					" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "startDate") : depth0, { "name": "if", "hash": {}, "fn": container.program(12, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 35, "column": 5 }, "end": { "line": 35, "column": 42 } } })) != null ? stack1 : "") + " &mdash; " + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "endDate") : depth0, { "name": "if", "hash": {}, "fn": container.program(14, data, 0), "inverse": container.program(16, data, 0), "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 35, "column": 51 }, "end": { "line": 35, "column": 99 } } })) != null ? stack1 : "") + "\n				</span>\n";
-}, "12": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "startDate") : depth0, depth0));
-}, "14": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "endDate") : depth0, depth0));
-}, "16": function(container, depth0, helpers, partials, data) {
-  return "Present";
-}, "18": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return '			<div class="description">\n				<p>' + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "description") : depth0, depth0)) + "</p>\n			</div>\n";
-}, "20": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
     }
     return void 0;
   };
-  return "			<ul class='highlights'>\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, depth0 != null ? lookupProperty(depth0, "highlights") : depth0, { "name": "each", "hash": {}, "fn": container.program(21, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 47, "column": 4 }, "end": { "line": 49, "column": 13 } } })) != null ? stack1 : "") + "			</ul>\n";
-}, "21": function(container, depth0, helpers, partials, data) {
-  return "				<li>" + container.escapeExpression(container.lambda(depth0, depth0)) + "</li>\n";
-}, "23": function(container, depth0, helpers, partials, data) {
+  return '			<div class="description">\n				<p>' + ((stack1 = container.lambda(depth0 != null ? lookupProperty(depth0, "description") : depth0, depth0)) != null ? stack1 : "") + "</p>\n			</div>\n";
+}, "13": function(container, depth0, helpers, partials, data) {
+  var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+      return parent[propertyName];
+    }
+    return void 0;
+  };
+  return "			<ul class='highlights'>\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, depth0 != null ? lookupProperty(depth0, "highlights") : depth0, { "name": "each", "hash": {}, "fn": container.program(14, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 43, "column": 4 }, "end": { "line": 45, "column": 13 } } })) != null ? stack1 : "") + "			</ul>\n";
+}, "14": function(container, depth0, helpers, partials, data) {
+  var stack1;
+  return "				<li>" + ((stack1 = container.lambda(depth0, depth0)) != null ? stack1 : "") + "</li>\n";
+}, "16": function(container, depth0, helpers, partials, data) {
   return "<div class='separator'></div>";
 }, "compiler": [8, ">= 4.3.0"], "main": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -650,12 +597,12 @@ var projects_default = Handlebars6.template({ "1": function(container, depth0, h
     }
     return void 0;
   };
-  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "projects") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 57, "column": 7 } } })) != null ? stack1 : "";
+  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "projects") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/projects.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 53, "column": 7 } } })) != null ? stack1 : "";
 }, "useData": true });
 
 // src/partials/certificates.hbs
 import Handlebars7 from "handlebars/dist/handlebars.runtime.js";
-Handlebars7.registerHelper({ formatDate });
+Handlebars7.registerHelper({ formatDate: formatDate2 });
 Handlebars7.registerPartial({});
 var certificates_default = Handlebars7.template({ "1": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -664,7 +611,7 @@ var certificates_default = Handlebars7.template({ "1": function(container, depth
     }
     return void 0;
   };
-  return "<div class='sectionLine'></div>\n<div id='certificates'>\n	<div class='sectionName'>\n		<span>CERTIFICATES</span>\n	</div>\n	<div class='sectionContent'>\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "certificates") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 48, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
+  return "<div class='sectionLine'></div>\n<div id='certificates'>\n	<div class='sectionName'>\n		<span>CERTIFICATES</span>\n	</div>\n	<div class='sectionContent'>\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "certificates") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 44, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
 }, "2": function(container, depth0, helpers, partials, data) {
   var stack1, alias1 = depth0 != null ? depth0 : container.nullContext || {}, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -672,7 +619,7 @@ var certificates_default = Handlebars7.template({ "1": function(container, depth
     }
     return void 0;
   };
-  return "		<div class='blockHeader'>\n			<span class='title'>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "name") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 31 } } })) != null ? stack1 : "") + "\n			</span>\n			" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "issuer") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 30, "column": 3 }, "end": { "line": 30, "column": 65 } } })) != null ? stack1 : "") + "\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "date") : depth0, { "name": "if", "hash": {}, "fn": container.program(7, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 31, "column": 3 }, "end": { "line": 35, "column": 10 } } })) != null ? stack1 : "") + "		</div>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "url") : depth0, { "name": "if", "hash": {}, "fn": container.program(9, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 37, "column": 2 }, "end": { "line": 41, "column": 9 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "summary") : depth0, { "name": "if", "hash": {}, "fn": container.program(11, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 42, "column": 2 }, "end": { "line": 46, "column": 9 } } })) != null ? stack1 : "") + "		" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(13, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 47, "column": 2 }, "end": { "line": 47, "column": 59 } } })) != null ? stack1 : "") + "\n";
+  return "		<div class='blockHeader'>\n			<span class='title'>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "name") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 31 } } })) != null ? stack1 : "") + "\n			</span>\n			" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "issuer") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 30, "column": 3 }, "end": { "line": 30, "column": 65 } } })) != null ? stack1 : "") + "\n            " + ((stack1 = lookupProperty(helpers, "formatDate").call(alias1, depth0 != null ? lookupProperty(depth0, "date") : depth0, { "name": "formatDate", "hash": {}, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 31, "column": 12 }, "end": { "line": 31, "column": 33 } } })) != null ? stack1 : "") + "\n		</div>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "url") : depth0, { "name": "if", "hash": {}, "fn": container.program(7, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 33, "column": 2 }, "end": { "line": 37, "column": 9 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "summary") : depth0, { "name": "if", "hash": {}, "fn": container.program(9, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 38, "column": 2 }, "end": { "line": 42, "column": 9 } } })) != null ? stack1 : "") + "		" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(11, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 43, "column": 2 }, "end": { "line": 43, "column": 59 } } })) != null ? stack1 : "") + "\n";
 }, "3": function(container, depth0, helpers, partials, data) {
   var lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -690,14 +637,6 @@ var certificates_default = Handlebars7.template({ "1": function(container, depth
   };
   return ' | <span class="issuer">' + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "issuer") : depth0, depth0)) + "</span>";
 }, "7": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return "			<span class='date'>\n				<span class='date'>" + container.escapeExpression(lookupProperty(helpers, "formatDate").call(depth0 != null ? depth0 : container.nullContext || {}, depth0 != null ? lookupProperty(depth0, "date") : depth0, { "name": "formatDate", "hash": {}, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 33, "column": 23 }, "end": { "line": 33, "column": 42 } } })) + "</span>\n			</span>\n";
-}, "9": function(container, depth0, helpers, partials, data) {
   var alias1 = container.lambda, alias2 = container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
@@ -705,15 +644,15 @@ var certificates_default = Handlebars7.template({ "1": function(container, depth
     return void 0;
   };
   return "		<div class='url'>\n			<a href='" + alias2(alias1(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "'>" + alias2(alias1(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "</a>\n		</div>\n";
-}, "11": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
+}, "9": function(container, depth0, helpers, partials, data) {
+  var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
     }
     return void 0;
   };
-  return '		<div class="summary">\n			<p>' + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "summary") : depth0, depth0)) + "</p>\n		</div>\n";
-}, "13": function(container, depth0, helpers, partials, data) {
+  return '		<div class="summary">\n			<p>' + ((stack1 = container.lambda(depth0 != null ? lookupProperty(depth0, "summary") : depth0, depth0)) != null ? stack1 : "") + "</p>\n		</div>\n";
+}, "11": function(container, depth0, helpers, partials, data) {
   return "<div class='separator'></div>";
 }, "compiler": [8, ">= 4.3.0"], "main": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -722,12 +661,12 @@ var certificates_default = Handlebars7.template({ "1": function(container, depth
     }
     return void 0;
   };
-  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "certificates") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 51, "column": 7 } } })) != null ? stack1 : "";
+  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "certificates") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/certificates.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 47, "column": 7 } } })) != null ? stack1 : "";
 }, "useData": true });
 
 // src/partials/awards.hbs
 import Handlebars8 from "handlebars/dist/handlebars.runtime.js";
-Handlebars8.registerHelper({});
+Handlebars8.registerHelper({ formatDate: formatDate2 });
 Handlebars8.registerPartial({});
 var awards_default = Handlebars8.template({ "1": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -742,7 +681,7 @@ var awards_default = Handlebars8.template({ "1": function(container, depth0, hel
 		<span>AWARDS</span>
 	</div>
 	<div class='sectionContent'>
-` + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "awards") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 45, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
+` + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "awards") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 41, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
 }, "2": function(container, depth0, helpers, partials, data) {
   var stack1, alias1 = depth0 != null ? depth0 : container.nullContext || {}, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -750,7 +689,7 @@ var awards_default = Handlebars8.template({ "1": function(container, depth0, hel
     }
     return void 0;
   };
-  return "		<div class='blockHeader'>\n			<span class='title'>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "title") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 33 } } })) != null ? stack1 : "") + "\n			</span>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "date") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 30, "column": 3 }, "end": { "line": 34, "column": 10 } } })) != null ? stack1 : "") + "		</div>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "awarder") : depth0, { "name": "if", "hash": {}, "fn": container.program(7, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 36, "column": 2 }, "end": { "line": 38, "column": 9 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "summary") : depth0, { "name": "if", "hash": {}, "fn": container.program(9, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 39, "column": 2 }, "end": { "line": 43, "column": 9 } } })) != null ? stack1 : "") + "		" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(11, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 44, "column": 2 }, "end": { "line": 44, "column": 59 } } })) != null ? stack1 : "") + "\n";
+  return "		<div class='blockHeader'>\n			<span class='title'>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "title") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 28, "column": 4 }, "end": { "line": 28, "column": 33 } } })) != null ? stack1 : "") + "\n			</span>\n			" + ((stack1 = lookupProperty(helpers, "formatDate").call(alias1, depth0 != null ? lookupProperty(depth0, "date") : depth0, { "name": "formatDate", "hash": {}, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 30, "column": 3 }, "end": { "line": 30, "column": 24 } } })) != null ? stack1 : "") + "\n		</div>\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "awarder") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 32, "column": 2 }, "end": { "line": 34, "column": 9 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "summary") : depth0, { "name": "if", "hash": {}, "fn": container.program(7, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 35, "column": 2 }, "end": { "line": 39, "column": 9 } } })) != null ? stack1 : "") + "		" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(9, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 40, "column": 2 }, "end": { "line": 40, "column": 59 } } })) != null ? stack1 : "") + "\n";
 }, "3": function(container, depth0, helpers, partials, data) {
   var lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -766,24 +705,16 @@ var awards_default = Handlebars8.template({ "1": function(container, depth0, hel
     }
     return void 0;
   };
-  return "			<span class='date'>\n				<span class='date'>" + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "date") : depth0, depth0)) + "</span>\n			</span>\n";
-}, "7": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
   return '			<div class="awarder">' + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "awarder") : depth0, depth0)) + "</div>\n";
-}, "9": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
+}, "7": function(container, depth0, helpers, partials, data) {
+  var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
     }
     return void 0;
   };
-  return '		<div class="summary">\n			<p>' + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "summary") : depth0, depth0)) + "</p>\n		</div>\n";
-}, "11": function(container, depth0, helpers, partials, data) {
+  return '		<div class="summary">\n			<p>' + ((stack1 = container.lambda(depth0 != null ? lookupProperty(depth0, "summary") : depth0, depth0)) != null ? stack1 : "") + "</p>\n		</div>\n";
+}, "9": function(container, depth0, helpers, partials, data) {
   return "<div class='separator'></div>";
 }, "compiler": [8, ">= 4.3.0"], "main": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -792,12 +723,12 @@ var awards_default = Handlebars8.template({ "1": function(container, depth0, hel
     }
     return void 0;
   };
-  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "awards") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 48, "column": 7 } } })) != null ? stack1 : "";
+  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "awards") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/awards.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 44, "column": 7 } } })) != null ? stack1 : "";
 }, "useData": true });
 
 // src/partials/volunteer.hbs
 import Handlebars9 from "handlebars/dist/handlebars.runtime.js";
-Handlebars9.registerHelper({});
+Handlebars9.registerHelper({ formatDateRange });
 Handlebars9.registerPartial({});
 var volunteer_default = Handlebars9.template({ "1": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -812,7 +743,7 @@ var volunteer_default = Handlebars9.template({ "1": function(container, depth0, 
 		<span>VOLUNTEERING</span>
 	</div>
 	<div class='sectionContent'>
-` + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "volunteer") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 50, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
+` + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "volunteer") : stack1, { "name": "each", "hash": {}, "fn": container.program(2, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 25, "column": 2 }, "end": { "line": 46, "column": 11 } } })) != null ? stack1 : "") + "	</div>\n</div>\n";
 }, "2": function(container, depth0, helpers, partials, data) {
   var stack1, alias1 = depth0 != null ? depth0 : container.nullContext || {}, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -820,7 +751,7 @@ var volunteer_default = Handlebars9.template({ "1": function(container, depth0, 
     }
     return void 0;
   };
-  return "		<div class='blockHeader'>\n			<span class='title'>" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "position") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 27, "column": 23 }, "end": { "line": 27, "column": 58 } } })) != null ? stack1 : "") + "</span>" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "organization") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 27, "column": 65 }, "end": { "line": 27, "column": 111 } } })) != null ? stack1 : "") + "\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "startDate") : depth0, { "name": "if", "hash": {}, "fn": container.program(7, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 28, "column": 3 }, "end": { "line": 32, "column": 10 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "url") : depth0, { "name": "if", "hash": {}, "fn": container.program(14, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 33, "column": 3 }, "end": { "line": 35, "column": 10 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "summary") : depth0, { "name": "if", "hash": {}, "fn": container.program(16, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 36, "column": 3 }, "end": { "line": 40, "column": 10 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, (stack1 = depth0 != null ? lookupProperty(depth0, "highlights") : depth0) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(18, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 41, "column": 3 }, "end": { "line": 47, "column": 10 } } })) != null ? stack1 : "") + "		</div>\n		" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(21, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 49, "column": 2 }, "end": { "line": 49, "column": 59 } } })) != null ? stack1 : "") + "\n";
+  return "		<div class='blockHeader'>\n			<span class='title'>" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "position") : depth0, { "name": "if", "hash": {}, "fn": container.program(3, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 27, "column": 23 }, "end": { "line": 27, "column": 58 } } })) != null ? stack1 : "") + "</span>" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "organization") : depth0, { "name": "if", "hash": {}, "fn": container.program(5, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 27, "column": 65 }, "end": { "line": 27, "column": 111 } } })) != null ? stack1 : "") + "\n            " + ((stack1 = lookupProperty(helpers, "formatDateRange").call(alias1, depth0 != null ? lookupProperty(depth0, "startDate") : depth0, depth0 != null ? lookupProperty(depth0, "endDate") : depth0, { "name": "formatDateRange", "hash": {}, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 28, "column": 12 }, "end": { "line": 28, "column": 51 } } })) != null ? stack1 : "") + "\n" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "url") : depth0, { "name": "if", "hash": {}, "fn": container.program(7, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 29, "column": 3 }, "end": { "line": 31, "column": 10 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "summary") : depth0, { "name": "if", "hash": {}, "fn": container.program(9, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 32, "column": 3 }, "end": { "line": 36, "column": 10 } } })) != null ? stack1 : "") + ((stack1 = lookupProperty(helpers, "if").call(alias1, (stack1 = depth0 != null ? lookupProperty(depth0, "highlights") : depth0) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(11, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 37, "column": 3 }, "end": { "line": 43, "column": 10 } } })) != null ? stack1 : "") + "		</div>\n		" + ((stack1 = lookupProperty(helpers, "unless").call(alias1, data && lookupProperty(data, "last"), { "name": "unless", "hash": {}, "fn": container.program(14, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 45, "column": 2 }, "end": { "line": 45, "column": 59 } } })) != null ? stack1 : "") + "\n";
 }, "3": function(container, depth0, helpers, partials, data) {
   var lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
@@ -838,32 +769,6 @@ var volunteer_default = Handlebars9.template({ "1": function(container, depth0, 
   };
   return " | " + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "organization") : depth0, depth0));
 }, "7": function(container, depth0, helpers, partials, data) {
-  var stack1, alias1 = depth0 != null ? depth0 : container.nullContext || {}, lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return "			<span class='date'>\n				" + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "startDate") : depth0, { "name": "if", "hash": {}, "fn": container.program(8, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 30, "column": 4 }, "end": { "line": 30, "column": 41 } } })) != null ? stack1 : "") + " &mdash; " + ((stack1 = lookupProperty(helpers, "if").call(alias1, depth0 != null ? lookupProperty(depth0, "endDate") : depth0, { "name": "if", "hash": {}, "fn": container.program(10, data, 0), "inverse": container.program(12, data, 0), "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 30, "column": 50 }, "end": { "line": 30, "column": 98 } } })) != null ? stack1 : "") + "\n			</span>\n";
-}, "8": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "startDate") : depth0, depth0));
-}, "10": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "endDate") : depth0, depth0));
-}, "12": function(container, depth0, helpers, partials, data) {
-  return "Present";
-}, "14": function(container, depth0, helpers, partials, data) {
   var alias1 = container.lambda, alias2 = container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
@@ -871,25 +776,26 @@ var volunteer_default = Handlebars9.template({ "1": function(container, depth0, 
     return void 0;
   };
   return "			<div class='url'><a href='" + alias2(alias1(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "'>" + alias2(alias1(depth0 != null ? lookupProperty(depth0, "url") : depth0, depth0)) + "</a></div>\n";
-}, "16": function(container, depth0, helpers, partials, data) {
-  var lookupProperty = container.lookupProperty || function(parent, propertyName) {
-    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
-      return parent[propertyName];
-    }
-    return void 0;
-  };
-  return '			<div class="summary">\n				<p>' + container.escapeExpression(container.lambda(depth0 != null ? lookupProperty(depth0, "summary") : depth0, depth0)) + "</p>\n			</div>\n";
-}, "18": function(container, depth0, helpers, partials, data) {
+}, "9": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
     if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
       return parent[propertyName];
     }
     return void 0;
   };
-  return "			<ul class='highlights'>\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, depth0 != null ? lookupProperty(depth0, "highlights") : depth0, { "name": "each", "hash": {}, "fn": container.program(19, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 43, "column": 4 }, "end": { "line": 45, "column": 13 } } })) != null ? stack1 : "") + "			</ul>\n";
-}, "19": function(container, depth0, helpers, partials, data) {
-  return "				<li>" + container.escapeExpression(container.lambda(depth0, depth0)) + "</li>\n";
-}, "21": function(container, depth0, helpers, partials, data) {
+  return '			<div class="summary">\n				<p>' + ((stack1 = container.lambda(depth0 != null ? lookupProperty(depth0, "summary") : depth0, depth0)) != null ? stack1 : "") + "</p>\n			</div>\n";
+}, "11": function(container, depth0, helpers, partials, data) {
+  var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
+    if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {
+      return parent[propertyName];
+    }
+    return void 0;
+  };
+  return "			<ul class='highlights'>\n" + ((stack1 = lookupProperty(helpers, "each").call(depth0 != null ? depth0 : container.nullContext || {}, depth0 != null ? lookupProperty(depth0, "highlights") : depth0, { "name": "each", "hash": {}, "fn": container.program(12, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 39, "column": 4 }, "end": { "line": 41, "column": 13 } } })) != null ? stack1 : "") + "			</ul>\n";
+}, "12": function(container, depth0, helpers, partials, data) {
+  var stack1;
+  return "				<li>" + ((stack1 = container.lambda(depth0, depth0)) != null ? stack1 : "") + "</li>\n";
+}, "14": function(container, depth0, helpers, partials, data) {
   return "<div class='separator'></div>";
 }, "compiler": [8, ">= 4.3.0"], "main": function(container, depth0, helpers, partials, data) {
   var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {
@@ -898,7 +804,7 @@ var volunteer_default = Handlebars9.template({ "1": function(container, depth0, 
     }
     return void 0;
   };
-  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "volunteer") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 53, "column": 7 } } })) != null ? stack1 : "";
+  return (stack1 = lookupProperty(helpers, "if").call(depth0 != null ? depth0 : container.nullContext || {}, (stack1 = (stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "volunteer") : stack1) != null ? lookupProperty(stack1, "length") : stack1, { "name": "if", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/partials/volunteer.hbs", "start": { "line": 18, "column": 0 }, "end": { "line": 49, "column": 7 } } })) != null ? stack1 : "";
 }, "useData": true });
 
 // src/partials/languages.hbs
@@ -1073,11 +979,11 @@ var resume_default = Handlebars13.template({ "1": function(container, depth0, he
     }
     return void 0;
   };
-  return '<!doctype html>\n<html lang="en">\n	<head>\n	\n	<meta charset="utf-8">\n	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">\n	\n	<title>' + ((stack1 = container.hooks.blockHelperMissing.call(depth0, alias1((stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "basics") : stack1, depth0), { "name": "resume.basics", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/resume.hbs", "start": { "line": 25, "column": 8 }, "end": { "line": 25, "column": 52 } } })) != null ? stack1 : "") + "</title>\n\n	<style>\n	" + ((stack1 = alias1(depth0 != null ? lookupProperty(depth0, "css") : depth0, depth0)) != null ? stack1 : "") + '\n	</style>\n	\n	</head>\n	<body>\n	\n	<div id="resume">\n' + ((stack1 = container.invokePartial(lookupProperty(partials, "basics"), depth0, { "name": "basics", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "education"), depth0, { "name": "education", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "skills"), depth0, { "name": "skills", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "work"), depth0, { "name": "work", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "publications"), depth0, { "name": "publications", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "projects"), depth0, { "name": "projects", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "certificates"), depth0, { "name": "certificates", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "awards"), depth0, { "name": "awards", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "volunteer"), depth0, { "name": "volunteer", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "languages"), depth0, { "name": "languages", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "interests"), depth0, { "name": "interests", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "references"), depth0, { "name": "references", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + "	</body>\n</html>\n";
+  return '<!doctype html>\n<html lang="en">\n	<head>\n	\n	<meta charset="utf-8">\n	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">\n	\n	<title>' + ((stack1 = container.hooks.blockHelperMissing.call(depth0, alias1((stack1 = depth0 != null ? lookupProperty(depth0, "resume") : depth0) != null ? lookupProperty(stack1, "basics") : stack1, depth0), { "name": "resume.basics", "hash": {}, "fn": container.program(1, data, 0), "inverse": container.noop, "data": data, "loc": { "source": "/home/john/RemoteProjects/WebstormProjects/Resume/src/resume.hbs", "start": { "line": 25, "column": 8 }, "end": { "line": 25, "column": 52 } } })) != null ? stack1 : "") + "</title>\n\n	<style>\n	" + ((stack1 = alias1(depth0 != null ? lookupProperty(depth0, "css") : depth0, depth0)) != null ? stack1 : "") + '\n	</style>\n	\n	</head>\n	<body>\n	\n	<div id="resume">\n' + ((stack1 = container.invokePartial(lookupProperty(partials, "basics"), depth0, { "name": "basics", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "education"), depth0, { "name": "education", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "skills"), depth0, { "name": "skills", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "work"), depth0, { "name": "work", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "publications"), depth0, { "name": "publications", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "projects"), depth0, { "name": "projects", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "certificates"), depth0, { "name": "certificates", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "awards"), depth0, { "name": "awards", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "volunteer"), depth0, { "name": "volunteer", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "languages"), depth0, { "name": "languages", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "interests"), depth0, { "name": "interests", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + ((stack1 = container.invokePartial(lookupProperty(partials, "references"), depth0, { "name": "references", "data": data, "indent": "		", "helpers": helpers, "partials": partials, "decorators": container.decorators })) != null ? stack1 : "") + "    </div>\n	</body>\n</html>\n";
 }, "usePartial": true, "useData": true });
 
 // src/style.css
-var style_default = 'body {\n    background: #EEEEEE;\n    font: 13px "Times New Roman", Times, sans-serif;\n    line-height: 1.4;\n    margin: 40px 0;\n}\n\nem {\n    color: #999;\n}\n\np {\n    line-height: 1.4;\n}\n\nul {\n    margin-bottom: 0;\n}\n\nli {\n    margin-bottom: 2px;\n}\n\na {\n    text-decoration: none;\n}\n\n#resume {\n    margin: 0 auto;\n    max-width: 600px;\n    padding: 80px 100px;\n    background: #fff;\n    border: 1px solid #ccc;\n    box-shadow: 2px 2px 4px #aaa;\n    -webkit-box-shadow: 2px 2px 4px #aaa;\n}\n\n.coursesList {\n    width: 28%;\n    vertical-align: top;\n    display: inline-block;\n}\n\n.largeFont {\n    font-size: 20px;\n}\n\n.smallFont {\n    font-size: 13px;\n}\n\n.sectionBlock {\n    display: flex;\n    width: 100%;\n}\n\n.sectionName {\n    width: 18%;\n    vertical-align: top;\n    display: inline-block;\n}\n\n.sectionContent {\n    width: 80%;\n    vertical-align: top;\n    display: inline-block;\n}\n\n.sectionContent ul {\n    padding-left: 20px;\n    margin-top: 6px;\n    list-style-type: circle;\n}\n\n.sectionContent .title {\n    font-weight: bold;\n}\n\n.sectionContent .date {\n    float: right;\n}\n\n.sectionContent .separator {\n    height: 14px;\n}\n\n.sectionLine {\n    border-style: dashed;\n    border-width: 1px;\n    border-color: #CFCFCF;\n    margin-top: 10px;\n    margin-bottom: 10px;\n}\n\n.divider {\n    font-weight: bold;\n    margin-left: 5px;\n    margin-right: 5px;\n}\n\n.summary {\n    margin-top: 6px;\n}\n\n.skillBlock {\n    margin-bottom: 4px;\n}\n\n.jobBlock {\n    page-break-inside: avoid;\n}\n\n.description {\n    text-align: justify;\n}\n\nblockquote.reference {\n    margin: 0;\n    margin-bottom: 1em;\n}\n\n\n/* Media Queries */\n\n@media only screen and (max-width: 40em) {\n    body {\n        margin: 0;\n        font-size: 14px;\n    }\n    #resume {\n        margin: 0 auto;\n        max-width: 600px;\n        padding: 0.5em 1em;\n        border: none;\n    }\n    .sectionBlock {\n        flex-direction: column;\n    }\n    .sectionContent {\n        width: 100%;\n    }\n    .sectionContent .date {\n        padding-right: 2em;\n    }\n    .sectionName {\n        width: auto;\n    }\n    .largeFont {\n        font-size: 20px;\n    }\n    .smallFont {\n        font-size: 14px;\n    }\n}\n\n@media print {\n    body {\n        background: #FFFFFF;\n    }\n    #resume {\n        margin: 0 auto;\n        max-width: 600px;\n        padding: 0px 0px;\n        border: 0px;\n        background: #fff;\n        box-shadow: none;\n        -webkit-box-shadow: none;\n    }\n    a {\n        color: black;\n    }\n}';
+var style_default = 'body {\n    background: #EEEEEE;\n    font: 13px "Times New Roman", Times, sans-serif;\n    line-height: 1.4;\n    margin: 40px 0;\n}\n\nem {\n    color: #999;\n}\n\np {\n    line-height: 1.4;\n}\n\nul {\n    margin-bottom: 0;\n}\n\na {\n    text-decoration: none;\n}\n\n#resume {\n    margin: 0 auto;\n    max-width: 600px;\n    padding: 1in 1in;\n    background: #fff;\n    border: 1px solid #ccc;\n    box-shadow: 2px 2px 4px #aaa;\n    -webkit-box-shadow: 2px 2px 4px #aaa;\n}\n\n.nameBlock, .contactBlock, .profilesBlock {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    justify-content: center;\n}\n\n.coursesList {\n    width: 28%;\n    vertical-align: top;\n    display: inline-block;\n}\n\n.largeFont {\n    font-size: 20px;\n}\n\n.smallFont {\n    font-size: 13px;\n}\n\n.sectionBlock {\n    display: flex;\n    width: 100%;\n}\n\n.sectionName {\n    width: 16%;\n    vertical-align: top;\n    display: inline-block;\n}\n\n.sectionContent {\n    width: 84%;\n    vertical-align: top;\n    display: inline-block;\n}\n\n.sectionContent ul {\n    padding-left: 20px;\n    margin-top: 0;\n    list-style-type: circle;\n}\n\n.sectionContent .title {\n    font-weight: bold;\n}\n\n.sectionContent .date {\n    float: right;\n}\n\n.sectionContent .separator {\n    border: 1px dashed #CFCFCF;\n    margin-top: 4px;\n    margin-bottom: 3px;\n}\n\n.sectionLine {\n    border-style: dashed;\n    border-width: 1px;\n    border-color: #CFCFCF;\n    margin-top: 3px;\n    margin-bottom: 7px;\n}\n\n.divider {\n    font-weight: bold;\n    margin-left: 5px;\n    margin-right: 5px;\n}\n\n.summary {\n    margin-top: 6px;\n}\n\n.jobBlock {\n    page-break-inside: avoid;\n}\n\n.description {\n    text-align: justify;\n}\n\nblockquote.reference {\n    margin: 0 0 1em;\n}\n\n\n/* Media Queries */\n\n@media only screen and (max-width: 40em) {\n    body {\n        margin: 0;\n        font-size: 14px;\n    }\n    #resume {\n        margin: 0 auto;\n        max-width: 600px;\n        padding: 0.5em 1em;\n        border: none;\n    }\n    .sectionBlock {\n        flex-direction: column;\n    }\n    .sectionContent {\n        width: 100%;\n    }\n    .sectionContent .date {\n        padding-right: 2em;\n    }\n    .sectionName {\n        width: auto;\n    }\n    .largeFont {\n        font-size: 20px;\n    }\n    .smallFont {\n        font-size: 14px;\n    }\n}\n\n@media print {\n    body {\n        background: #FFFFFF;\n        margin: 0;\n    }\n    #resume {\n        margin: 0 auto;\n        padding: 0;\n        border: 0;\n        max-width: 100%;\n        background: #fff;\n        box-shadow: none;\n        -webkit-box-shadow: none;\n    }\n    a {\n        color: black;\n    }\n\n    .sectionName {\n        width: 14%;\n    }\n\n    .sectionContent {\n        width: 86%;\n    }\n}';
 
 // src/theme.ts
 var render = (resume) => {
@@ -1096,9 +1002,9 @@ async function htmlToPdfBuffer(html) {
   const page = await browser.newPage();
   await page.setContent(html, { waitUntil: "domcontentloaded" });
   return page.pdf({
-    margin: { top: "100px", right: "50px", bottom: "100px", left: "50px" },
+    margin: { top: ".75in", right: ".75in", bottom: ".75in", left: ".75in" },
     printBackground: true,
-    format: "A4"
+    format: "Letter"
   }).then(async (buf) => {
     await browser.close();
     return buf;
@@ -1119,10 +1025,22 @@ async function loadResumeFile(resumePath) {
   return fs.readFile(resumePath, "utf-8").then((content) => JSON.parse(content));
 }
 async function loadResume(resumePaths) {
-  const resume = mergician(...await Promise.all(resumePaths.map(loadResumeFile)));
+  const resume = mergician({ appendArrays: true })(...await Promise.all(resumePaths.map(loadResumeFile)));
   if (!await validate(resume)) {
     return Result.err(new Error(`${resumePaths} when merged do not produce a valid resume object by the jsonresume schema`));
   }
+  resume.work.sort((fst, snd) => {
+    if (fst.endDate === snd.endDate) {
+      return 0;
+    }
+    if (fst.endDate === void 0) {
+      return -1;
+    }
+    if (snd.endDate === void 0) {
+      return 1;
+    }
+    return snd.endDate.localeCompare(fst.endDate);
+  });
   return Result.ok(resume);
 }
 async function renderResume({ outName, theme, resumePaths, renders }) {

@@ -19,5 +19,5 @@ module.exports = {
             }
         ]
     },
-    "ignorePatterns": ["src/**/*.test.ts", "dist/**/*"]
+    "ignorePatterns": ["src/**/*.test.ts", "dist/**/*", "build/**/*"]
 }
